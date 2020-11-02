@@ -2,7 +2,7 @@ import {WebViewProps} from 'react-native-webview';
 import {ImageSourcePropType, StyleProp, ViewStyle} from 'react-native';
 import * as React from 'react';
 
-declare module 'react-native-pell-rich-editor' {
+declare module 'react-native-shark-rich-editor' {
     /** The RichTextEditor accepts all props from Webview */
     export interface RichEditorProps extends WebViewProps {
         /**
