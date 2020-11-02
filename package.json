@@ -1,0 +1,17 @@
+{
+  "name": "react-native-shark-rich-editor",
+  "description": "React Native Shark Rich Editor",
+  "version": "1.3.0",
+  "main": "src/index.js",
+  "author": {
+    "name": "Eamon Almiladi"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "peerDependencies": {
+    "react-native": ">=0.50.0",
+    "react-native-webview": ">=7.5.2"
+  }
+}
