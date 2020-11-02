@@ -271,7 +271,7 @@ function createHTML(options = {}) {
                                 postAction({type: 'IMAGE_PASTED', data: newImage});
                                 document.execCommand("insertHTML", false, '<img src="' + objectUrl + '"/>');
                             }
-                            fileReader.readAsText(imageFile);
+                            fileReader.readAsDataURL(imageFile);
                         }
                     }
                 }
