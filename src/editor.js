@@ -268,7 +268,7 @@ function createHTML(options = {}) {
                             let fileReader = new FileReader();
                             fileReader.onload = function(e) {
                                 var newImage = {rawImage: fileReader.result, blobUri: objectUrl }
-                                postAction({type: 'IMAGE_PASTED', data: [fileReader.result]});
+                                postAction({type: 'IMAGE_PASTED', data: newImage});
                                 document.execCommand("insertHTML", false, '<img src="' + objectUrl + '"/>');
                             }
                             fileReader.readAsText(imageFile);
