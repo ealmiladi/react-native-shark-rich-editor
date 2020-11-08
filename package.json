@@ -1,7 +1,7 @@
 {
   "name": "react-native-shark-rich-editor",
   "description": "React Native Shark Rich Editor",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "main": "src/index.js",
   "author": {
     "name": "Eamon Almiladi"
