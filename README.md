@@ -1,18 +1,16 @@
-# React Native Rich Text Editor
+# React Native Rich Shark Text Editor
 
 
-[![NPM](https://img.shields.io/npm/v/react-native-pell-rich-editor.svg)](https://www.npmjs.com/package/react-native-pell-rich-editor)
-
+[![NPM](https://img.shields.io/npm/v/react-native-pell-rich-editor.svg)](https://www.npmjs.com/package/react-native-shark-rich-editor)
 ------
 
-> A fully functional Rich Text Editor for both Android and iOS (macOS and windows)?
+> A fully functional Rich Text Editor for both Android and iOS (macOS and windows)
+> Forked from https://www.npmjs.com/package/react-native-pell-rich-editor
 
 > If you want to use **flutter**, you can check [here](https://github.com/wxik/flutter-rich-editor) to add **flutter_rich_editor**
 
 ```
-yarn add react-native-pell-rich-editor
-or
-npm i react-native-pell-rich-editor
+npm i react-native-shark-rich-editor
 ```
 
 Also, follow instructions [here](https://github.com/react-native-community/react-native-webview) to add the native `react-native-webview` dependency.
@@ -61,12 +59,10 @@ The editor component. Simply place this component in your view hierarchy to rece
     
 * `useContainer`
 
+* `onImageAdded`
+    Callback when an image is pasted in the text editor. The callback contains the base64 data uri of the image added, as well as the shortened-blob reference. 
+
 	A boolean value that determines if a View container is wrapped around the WebView. The default value is true. If you are using your own View to wrap this library around, set this value to false. 
-
-* `pasteAsPlainText`
-
-	A boolean value (false as default) that determines if the clipboard paste will keep its format or it will be done as plain text
-
 
 `RichEditor` also has methods that can be used on its `ref` to  set:
 
